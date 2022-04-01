@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+      "inquirer": "^8.2.0"
+    },
+    "devDependencies": {
+      "jest": "^27.5.1"
+    },
+    "name": "team-profile",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib",
+      "test": "test"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
