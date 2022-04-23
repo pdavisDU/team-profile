@@ -1,9 +1,9 @@
-const fs = require('fs');
 const inquirer = require('inquirer');
-const Manager = require('./lib/manager');
-const Engineer = require('./lib/engineer');
-const Intern = require('./lib/intern');
-const Employee = require('./lib/Employee');
+const fs = require('fs');
+// const Employee = require('./lib/Employee');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
 
 const teams = [];
 
@@ -134,7 +134,7 @@ function showHTML(){
             </body>
             </html>
     `;
-    fs.writeFileSync(".dist/index.html", html);
+    fs.writeFileSync("./dist/index.html", html);
     console.log('page created');
 }
 
