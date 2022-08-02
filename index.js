@@ -97,7 +97,7 @@ function eAdd() {
 function addEmp() {
   inquirer.prompt(emplyQues).then((input) => {
     if (input.role === "Engineer") {
-      const ee = new Engineer(input.name, input.id, input.other);
+      const ee = new Engineer(input.name, input.id, input.email, input.other);
       teams.push(ee);
     } else {
       const ee = new Intern(input.name, input.id, input.email, input.other);
